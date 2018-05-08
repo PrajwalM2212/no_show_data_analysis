@@ -1,0 +1,5 @@
+venv
+
+.ipynb_checkpoints/
+
+no-show_appointments.ipynb.orig

@@ -1,0 +1,6 @@
+[cli]
+bears = PEP8Bear,SpaceConsistencyBear,PEP8NotebookBear
+files = no-show_appointments.ipynb
+use_spaces = True
+
+default_actions = **: ApplyPatchAction
