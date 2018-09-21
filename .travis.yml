@@ -7,6 +7,7 @@ install:
   - pip install numpy
   - pip install matplotlib
   - pip install seaborn
+  - pip install coala
 
 script:
   - echo "skipping tests"
