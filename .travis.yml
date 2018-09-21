@@ -11,8 +11,4 @@ install:
 
 script:
   - echo "skipping tests"
-  - python setup.py bdist_wheel
-  - pip install ./dist/coala-*.whl
-  - curl -fsSL -o coala-bears.zip $BEARS_ZIP_URL/master
-  - pip install coala-bears.zip[alldeps] --pre -U
   - coala --non-interactive
